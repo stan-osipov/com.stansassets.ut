@@ -4,3 +4,7 @@ UltimateTutorialProject/Assembly-CSharp-Editor.csproj
 UltimateTutorialProject/Assembly-CSharp.csproj
 UltimateTutorialProject/UltimateTutorialProject.sln
 UltimateTutorialProject/Temp
+UltimateTutorialProject/.idea
+Builds
+UltimateTutorialProject/obj
+*.DotSettings

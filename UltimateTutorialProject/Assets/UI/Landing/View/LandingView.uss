@@ -1,0 +1,21 @@
+.landing__app-title-text {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.landing__buttons-row {
+    flex-direction: row;
+}
+
+.landing__tutorial-button {
+    flex-grow: 1;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing__tutorial-button-icon {
+    width: 50px;
+    height: 50px;
+}

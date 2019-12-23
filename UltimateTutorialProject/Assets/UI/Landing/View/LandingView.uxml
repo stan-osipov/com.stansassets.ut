@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Label text="Application Title" class="landing__app-title-text">
+        <Style src="LandingView.uss" />
+    </ui:Label>
+    <ui:ScrollView>
+        <Style src="LandingView.uss" />
+        <ui:VisualElement name="buttons-row" class="landing__buttons-row">
+            <ui:Button text="Button" class="landing__tutorial-button">
+                <ui:VisualElement class="landing__tutorial-button-icon" style="background-image: url('/Assets/UI/Landing/Content/um_market_icon.png');" />
+            </ui:Button>
+            <ui:Button text="Button" class="landing__tutorial-button">
+                <ui:VisualElement class="landing__tutorial-button-icon" style="background-image: url('/Assets/UI/Landing/Content/um_game_icon.png');" />
+            </ui:Button>
+            <ui:Button text="Button" class="landing__tutorial-button">
+                <ui:VisualElement class="landing__tutorial-button-icon" style="background-image: url('/Assets/UI/Landing/Content/um_notification_icon.png');" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>
